@@ -3,6 +3,7 @@
     "description": "Projeto da aula da Alura sobre composers.",
     "type": "library",
     "autoload": {
+        "files": ["./functions.php"],
         "psr-4": {
             "Jeantl\\BuscadorCursos\\": "src/"
         }
@@ -35,5 +36,7 @@
     },
     "scripts-descriptions": {
         "check": "Roda as verificações do código. PHAN, PHPCS e PHPUNIT"
-    }
+    },
+    "license": "GPL-3.0",
+    "bin": ["buscar-cursos.php"]
 }
